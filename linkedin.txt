@@ -1,0 +1,150 @@
+ <nav class="navbar navbar-expand-sm-" style=" background-color: white;">
+
+            <div class="col-sm-1" ></div>
+            <div class=" col-sm-10 " >
+                <form class="form-inline" action="/action_page.php" >
+                    <img src="./images/linkdin icon.png" class="nav_imag"  alt="logoimg" style="margin-left:20px">
+
+                    <input class="form-control mr-sm-2 " type="text" placeholder="Search" style="border: 1px solid black ; width: 17rem; margin-left: 15px; background-color: aliceblue;">
+
+                        <div class="icon_header" style=" margin-left: 8%;">
+                            <i class="fa-solid fa-house-chimney fa-lg nav_icon" style="color: black;"></i>
+                            
+                            <i class="fa-solid fa-user-group fa-lg nav_icon" style="color: black;"></i>
+
+                            <i class="fa-solid fa-briefcase fa-lg nav_icon"style="color: black;"></i>
+                            <!-- <span>Home</span> -->
+                            <i class="fa-solid fa-comment-dots fa-lg nav_icon"style="color: black;"></i>
+                            <!-- <span>Home</span> -->
+                            <i class="fa-solid fa-bell fa-lg nav_icon"style="color: black;"></i>
+                            <!-- <span>Home</span> -->
+                        </div>
+                </form>
+            </div>
+            <div class="col-sm-1"></div>
+    
+        </nav>
+
+
+
+ 
+        <div class="row">
+        <!-- First Column -->
+            <div class="main_sec_column left" style="background-color:white; border: 1px solid lightgray;">
+                <div class="profile_div" style="background-color: silver; margin: -4%; padding: -4%; height: 60px; border-bottom-left-radius: 0px; border-top-right-radius: 10px;
+                border-top-left-radius: 10px; ">
+
+                    <img src="./images/me.jpg" alt="profile" style="height: 70px; width:70px; border: 2px solid white; border-radius:50%; top: 50px; margin: 20px 80px 0px 80px;">
+                </div>
+                <div class="profile_name" style="padding: 20% 2% 0% 2%; margin: 5px;">
+                    <h6>MUHAMMAD UKKASHA</h6>
+                    <p style="text-align: left;;">Student at COMSATS University Islamabad</p>
+                </div>
+                <!-- Horizontal Row -->
+                <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+                <div class="profile_content">
+                    <table >
+                        <tr style="justify-content: space-between; align-content: space-between;">
+                            <td>Views of your posts</td>
+                            <td>79</td>
+                        </tr>
+                        <tr>
+                            <td>Connections</td>
+                            <td>233</td>
+                        </tr>
+                    </table>
+                </div>
+                    <!-- Horizontal Row -->
+                    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+                    <div >
+                        <p style="margin-bottom: 0rem; ">Access exclusivve tool & insights</p>
+                        <apan >try premum for free</span>
+                    </div>
+            </div>
+
+            
+       <!-- Middle column -->
+                <div class="main_sec_column middle" style="background-color:white; border: 1px solid lightgray;">
+                    <div class="row">
+                        <img src="./images/me.jpg" alt="profile" style="height: 50px; width:50px; border: 2px solid white; border-radius:50%; top: 10px; margin: 10px 10px 20px 20px;">
+                        <input style="background: transparent; width: 80%; height: 50px; border-radius: 50px; margin-top: 10px; border: 1px solid gray;" placeholder="  start a Post ..."></input>
+                    </div>
+                    
+                    
+                    <div class="row" style="   width: 100%;">
+                        
+                        <li-icon aria-hidden="true" type="image-icon" style="color: lightblue;" class="artdeco-button__icon post_icons"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                            <path d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z"></path>
+                        </svg></li-icon><span>Image</span>
+
+                        <li-icon aria-hidden="true" style="color: lightgreen;" type="video-icon" class="artdeco-button__icon post_icons"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                            <path d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm-9 12V8l6 4z"></path>
+                        </svg></li-icon><span>Video</span>
+
+                        <li-icon aria-hidden="true" style="color: rgba(231, 143, 143, 0.822);"  type="calendar-icon" class="post_icons" size="medium"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match " width="24" height="24" focusable="false">
+                            <path d="M3 3v15a3 3 0 003 3h12a3 3 0 003-3V3zm13 1.75A1.25 1.25 0 1114.75 6 1.25 1.25 0 0116 4.75zm-8 0A1.25 1.25 0 116.75 6 1.25 1.25 0 018 4.75zM19 18a1 1 0 01-1 1H6a1 1 0 01-1-1V9h14zm-5.9-3a1 1 0 00-1-1H12a3.12 3.12 0 00-1 .2l-1-.2v-3h3.9v1H11v1.15a3.7 3.7 0 011.05-.15 1.89 1.89 0 012 1.78V15a1.92 1.92 0 01-1.84 2H12a1.88 1.88 0 01-2-1.75 1 1 0 010-.25h1a.89.89 0 001 1h.1a.94.94 0 001-.88z"></path>
+                        </svg> </li-icon><span>Event</span>
+
+                        <li-icon aria-hidden="true" style="color: orange;"  class="post_icons" type="content-left-align-icon" size="medium"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                            <path d="M21 3v2H3V3zm-6 6h6V7h-6zm0 4h6v-2h-6zm0 4h6v-2h-6zM3 21h18v-2H3zM13 7H3v10h10z"></path>
+                        </svg></li-icon><span>Article</span>
+
+                    </div>
+                </div>
+            
+       
+
+        <!-- Third Column -->
+            <div class="main_sec_column right" style="background-color:white; border: 1px solid lightgray; padding: 1%;">
+              <h5>Add your feed</h5>
+                <div class="row" style="display: flex; flex-direction: row;">
+                    <div style="margin-bottom: 8%;">
+                        <image style="width: 50px; margin-left: 15px; height: 50px; border-radius: 50%; margin-top: 5%; border: 1px solid black;"></image>
+                            
+                        <div class="row" style="justify-content: flex-start; padding-left: 35% ;margin-top: -20%; padding-right: 8%;">
+                            <h6>BrainX Technologies</h6>
+                            <p>Lorem ipsum, dolor sit amet consectetur  Eiuss at?</p>
+                            <button style="border: 1px solid gray; background: transparent; height: 30px; width: 80px; border-radius: 35px;">Follow</button>
+                        </div>
+
+                    </div>
+                    
+                    <div style="margin-bottom: 8%;">
+                        <image style="width: 50px; margin-left: 15px; height: 50px; border-radius: 40%; margin-top: 5%; border: 1px solid black;"></image>
+                        
+                        <div class="row" style="justify-content: flex-start; padding-left: 35% ;margin-top: -20%; padding-right: 8%;">
+                            <h6>Applyat</h6>
+                            <p>Lorem ipsum, dolor sit amet consectetur  Eiuss at?</p>
+                            <button style="border: 1px solid gray; background: transparent; height: 30px; width: 80px; border-radius: 35px;">Follow</button>
+                        </div>
+                        
+                    </div>
+
+                    <div style="margin-bottom: 8%;">
+                        <image style="width: 50px; margin-left: 15px; height: 50px; border-radius: 40%; margin-top: 5%; border: 1px solid black;"></image>
+                        
+                        <div class="row" style="justify-content: flex-start; padding-left: 35% ;margin-top: -20%; padding-right: 8%;">
+                            <h6>Junaid shaeikh P.H.D</h6>
+                            <p>Lorem ipsum, dolor sit amet consectetur  Eiuss at?</p>
+                            <button style="border: 1px solid gray; background: transparent; height: 30px; width: 80px; border-radius: 35px;">Follow</button>
+                        </div>
+                        
+                    </div>
+
+                   
+                </div>
+            </div>
+
+        <!--########### Another row -->
+        <!-- <div class="row">
+        Col 1
+            <div class="col-sm-2 main_sec_column right" style="background-color:#ccc;">
+
+            </div>
+        Col 2
+            <div class="col-sm-6 main_sec_column middle" ></div>
+
+        Col 3
+            <div class="col-sm-3 main_sec_column right" style="background-color:#ccc;"></div> -->
+       

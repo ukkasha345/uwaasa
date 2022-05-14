@@ -1,0 +1,195 @@
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(241, 241, 241);
+  /* color: aliceblue; */
+}
+.nav_imag{
+  height: 35px;
+  width: 35px;
+}
+.icon_header{
+  /* justify-items: "flex-end"; */
+  flex: 1;
+  flex-direction: row;
+  margin-left: 20%;
+}
+.icon_header i p{
+  flex-direction: row;
+  padding: 0 3% 0 4%;
+}
+
+.main_section{
+  padding-right:60px;
+  padding-left:80px;
+}
+
+/* ################################### */
+/* ########### Navgation ############# */
+.nav_above{
+  /* position: fixed; */
+  background-color: white;
+}
+/* .navigation{ */
+  /* margin-top: 80px; */
+ /* position:fixed; */
+/* } */
+
+.navbar_dpo_down{
+  list-style: none;
+}
+.li_nav{
+  float: left;
+  margin:15px 0px 0px 50px;
+  max-width:500px;
+}
+.li_nav a{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.joinUs_nav{
+  float: left;
+  background-color: rgb(248, 248, 59);
+  margin: 0px 0px 0px 50px;
+  max-width:500px;
+}
+.jointem{
+  height: 60px;
+}
+.joinUs_nav a{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+.joinUs_nav .jointem:hover{
+background-color: rgb(63, 109, 177);
+}
+
+.li_nav:hover{
+  margin-top: 20px;
+  border-bottom: 2px solid orange;
+}
+
+/* ################################# */
+/* ##### DROP DONW ################# */
+/* .dropAboutUS :hover{
+  
+} */
+
+/* #################################################### */
+/* ################### intro section ################## */
+
+.main_section{
+  /* height: 500px; */
+  /* position: absolute; */
+  background-image: url('./images/uwa_campus.jpg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;  
+  /* background-size: cover; */
+  opacity: 1;
+  background-size: 100% 40rem ;
+}
+.intro_sec{
+  position:relative;
+  height: 35rem;
+  width: 100%;
+}
+
+.introDes {
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 15%;
+  width: 40rem;
+  height: 5rem;
+ 
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.introDes h4{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+/* ############################################################333 */
+/* ######################  second section ######################## */
+.scndSec{
+  position: relative;
+  height: 300px; 
+  background-color:rgb(100, 130, 150)
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+}
+
+/* ############################################################333 */
+/* ######################  third section ######################## */
+
+.thirddSec{
+  position:inherit;
+  height: 250px; 
+  background-color: #439EC7;
+}
+
+.col_itm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+.col_itm h4{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+/* ############################################################333 */
+/* ######################  forth section ######################## */
+.forthSec{
+  height: 800px;
+  background-color: white;
+  padding: 5%;
+}
+.frtSecImg{
+  height:200px;
+  width: 350px;
+}
+.fourth p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* ############################################################333 */
+/* ######################  five section ######################## */
+.fiv{
+  height: 500px;
+  background-color: rgb(80, 131, 165);
+  padding: 5% 10% 0% 10%;
+}
+
+/* ############################################################333 */
+/* ######################  last section ######################## */
+.last{
+  height: 500px;
+  background-color: #439EC7;
+  padding: 2%;
+}
+.last p,h3,h5,h6{
+  color: white;
+}
+.flexWalyDiv{
+  display: flex;
+  padding: 0.5%;
+}
+.chk:hover{
+  color: yellow;
+}

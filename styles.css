@@ -193,3 +193,52 @@ background-color: rgb(63, 109, 177);
 .chk:hover{
   color: yellow;
 }
+
+
+
+/* ############################################################333 */
+/* ############################################################333 */
+/* ########################        ############################333 */
+/* ######################  About US  ####################### */
+/* ########################        ############################333 */
+/* ############################################################333 */
+/* ############################################################333 */
+/* ############################################################333 */
+
+.abour_us_main_section{
+
+  background-image: url('./images/joinUS.jpg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;  
+  background-size: 100% 40rem ;
+}
+
+.abtUs_intro_sec{
+  position:relative;
+  height: 35rem;
+  width: 100%;
+}
+
+.abtUS_introDes {
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 15%;
+  width: 40rem;
+  height: 5rem;
+}
+.joinCntainr{
+  margin-top: 2rem;
+}
+
+/* .joinUsSec2{ */
+  /* color: azure; */
+/* } */
+.joinUsSec2 p{
+  background-color: #439EC7;
+  border-radius: 25px;
+  margin: 1%;
+  padding: 3%;
+  color: white;
+  margin: 5%;
+  font-weight: lighter;
+}
